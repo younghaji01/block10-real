@@ -1,0 +1,133 @@
+.main {
+    position: relative;
+    margin-bottom: 2rem;
+}
+
+.topRow {
+    display: flex;
+    height: 100px;
+    margin-bottom: 15px;
+}
+
+.topRow > div {
+    background-color: skyblue;
+    flex: 1;
+}
+
+.topRow > div:nth-child(2) {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+ .medRow {
+    height: 400px;
+    background-color: skyblue;
+    margin-bottom: 10px;
+ }
+
+ .bottomRow {
+    height: 20px;
+    background-color: yellowgreen;
+ }
+
+.circle {
+    width: 150 px;
+    height: 150px;
+    background-color: lightyellow;
+    border-radius: 50%;
+    position: absolute;
+    z-index: 2;
+    left: 100px;
+    top: 80px;
+} 
+
+.one {
+    width: 150px;
+    height: 150px;
+    background-color: yellow;
+    left: 100px;
+    top: 80px;
+}
+
+.two {
+    left: 100px;
+    top: 40px;
+    width: 50px;
+    height: 50px;
+    background-color: yellow;
+}
+
+.three {
+    left: 80px;
+    top: 100px;
+    width: 30px;
+    height: 30px;
+    background-color: pink;
+}
+
+.four {
+    left: 500px;
+    top: 40px;
+    width: 100px;
+    height: 100px;
+    background-color: pink;
+}
+
+.five {
+    left: 250px;
+    top: 40px;
+    width: 50px;
+    height: 50px;
+    background-color: pink;
+}
+
+.traingle {
+    width: 0;
+    height: 0;
+    position: absolute;
+}
+
+.tri-one {
+    border-left: 100px solid transparent;
+    border-right: 100px solid transparent;
+    border-bottom: 200px solid yellowgreen;
+    left: 60%;
+    top: 58%;
+    z-index: 3;
+}
+
+.tri-two {
+    border-left: 200px solid transparent;
+    border-right: 200px solid transparent;
+    border-bottom: 350px solid green;
+    left: 30%;
+    top: 38%;
+    z-index: 1;
+}
+
+h3 {
+    text-align: center;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+}
+
+
+.formInput {
+    margin: 1rem;
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    align-self: center;
+}
+
+
+.submitButton {
+    margin-top: 1rem;
+    padding: 1rem;
+    width: 30%;
+    align-self: center;
+    background-color: skyblue;
+}
